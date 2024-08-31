@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(206, 226, 240);
+}
+
+.card-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.attribution { font-size: 18px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.card{  
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%; /* Hacer que la tarjeta ocupe el 100% del contenedor en pantallas pequeñas */
+    max-width: 300px; /* Limitar el ancho máximo de la tarjeta */
+     
+    background-color:rgb(250, 250, 250); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+   
+   
+    
+}
+
+#code_qr{
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    
+}
+
+h2 {
+    margin-bottom: 8px; /* Ajusta este valor a lo que te parezca mejor */
+    font-size: 18px;
+  }
+  
+  p {
+    margin-top: 8px; /* Ajusta este valor a lo que te parezca mejor */
+    color:rgb(146, 147, 148);
+  }
+  
